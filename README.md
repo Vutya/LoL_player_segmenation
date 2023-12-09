@@ -1,7 +1,7 @@
 # LoL player segmenation
 This is exploratory clusterization of the averaged match data in LoL. Data for season 2020 was extracted for 2048 players of different ranks, 100 ranked solo queue matches each. Complex features were divided into simpler ones, uninformative features (std < 0.5) were removed, data was normalized, multicollinearity threat was diminished. Analysis is [here](https://github.com/Vutya/LoL_player_segmenation/blob/main/AnalysisData.ipynb).
 
-After that t-SNE algorithm was used for averaged data over all players. It turned out that in this way players are grouped by most picked role in the last 100 matches rather than ranks. However, most players of lower ranks did not fall into any role cluster indicating that they did not choose their favourite role yet andor they do not know yet how to play different roles.
+After that t-SNE algorithm was used for averaged data over all players. It turned out that in this way players are grouped by most picked role in the last 100 matches rather than ranks. However, most players of lower ranks did not fall into any role cluster indicating that they did not choose their favourite role yet or they do not know yet how to play different roles.
 
 ![tsne-role](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/tsne_role.png)
 ![tsne-rank](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/tsne_rank.png)
