@@ -7,6 +7,7 @@ After that t-SNE algorithm was used for averaged data over all players. It turne
 ![tsne-rank](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/tsne_rank.png)
 
 k-means clustering in general reproduced this pattern:
+
 ![kmeans](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/kmeans.png)
 
 Centroids of clusters also indicate the most and least important features for each of the roles (e.g., vision score for supports, magical damage dealt to champions for mid lane)
