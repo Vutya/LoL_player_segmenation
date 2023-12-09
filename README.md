@@ -6,7 +6,7 @@ After that t-SNE algorithm was used for averaged data over all players. It turne
 ![tsne-role](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/tsne_role.png)
 ![tsne-rank](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/tsne_rank.png)
 
-k-means clustering in general reproduced this pattern:
+k-means clustering in general reproduced this pattern (with a Versatile cluster to be the cluster for low-ranked players probably picking different roles):
 
 ![kmeans](https://github.com/Vutya/LoL_player_segmenation/blob/main/clusters/kmeans.png)
 
